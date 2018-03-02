@@ -11,9 +11,9 @@ exports[`should render expense item with expense 1`] = `
     </h2>
   </Link>
   <p>
-    195000
-     - 
-    -345600000
+    $195,000.00
+    -
+    28th Dec, 1969
   </p>
 </div>
 `;
