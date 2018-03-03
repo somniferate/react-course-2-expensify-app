@@ -18,6 +18,5 @@ exports[`should render header correctly 1`] = `
   >
     Create Expense
   </NavLink>
-  <Connect(ExpensesSummary) />
 </header>
 `;
