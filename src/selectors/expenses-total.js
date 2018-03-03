@@ -1,0 +1,1 @@
+export default (filteredExpenses) => filteredExpenses.map(expense => expense.amount).reduce((accum, amount) => accum + amount, 0)

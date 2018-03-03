@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect a total to render if one expense passed 1`] = `
+<div>
+  <p>
+    Viewing 1 expense totalling $1,950.00
+  </p>
+</div>
+`;
+
+exports[`expect fixtures total to render if all expenses passed 1`] = `
+<div>
+  <p>
+    Viewing 3 expenses totalling $2,351.95
+  </p>
+</div>
+`;
+
+exports[`expect nothing to render if zero expenses passed 1`] = `<div />`;
