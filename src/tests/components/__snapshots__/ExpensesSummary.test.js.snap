@@ -3,7 +3,7 @@
 exports[`expect a total to render if one expense passed 1`] = `
 <div>
   <p>
-    Viewing 1 expense totalling $1,950.00
+    Viewing 1 expense totalling $1.95
   </p>
 </div>
 `;
@@ -11,7 +11,7 @@ exports[`expect a total to render if one expense passed 1`] = `
 exports[`expect fixtures total to render if all expenses passed 1`] = `
 <div>
   <p>
-    Viewing 3 expenses totalling $2,351.95
+    Viewing 5 expenses totalling $300.25
   </p>
 </div>
 `;
