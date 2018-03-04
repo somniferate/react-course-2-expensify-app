@@ -21,6 +21,8 @@ const jsx = (
     </Provider>
 );
 
+console.log(process.env.FIREBASE_API_KEY)
+
 ReactDOM.render(<p>Loading...</p>, document.getElementById("app"));
 
 store.dispatch(startSetExpenses()).then(() => {
