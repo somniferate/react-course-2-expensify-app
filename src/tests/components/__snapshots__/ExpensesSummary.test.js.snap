@@ -1,19 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`expect a total to render if one expense passed 1`] = `
-<div>
-  <p>
-    Viewing 1 expense totalling $1.95
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Viewing 
+      <span>
+        1
+      </span>
+       expense
+       totalling 
+      <span>
+        $1.95
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`expect fixtures total to render if all expenses passed 1`] = `
-<div>
-  <p>
-    Viewing 5 expenses totalling $300.25
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Viewing 
+      <span>
+        5
+      </span>
+       expense
+      s
+       totalling 
+      <span>
+        $300.25
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;
 
-exports[`expect nothing to render if zero expenses passed 1`] = `<div />`;
+exports[`expect nothing to render if zero expenses passed 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
+`;
